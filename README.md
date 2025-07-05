@@ -30,18 +30,13 @@ git clone https://github.com/mquang248/Password_Checker.git
 cd Password_Checker
 ```
 
-2. Create and activate virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
 
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Install John the Ripper:
+3. Install John the Ripper:
 ```bash
 # For Debian/Ubuntu-based systems:
 sudo apt-get install john
